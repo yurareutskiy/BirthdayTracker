@@ -10,3 +10,4 @@ import Foundation
 
 typealias VoidCallback = (() -> ())
 typealias DateCallback = ((Date) -> ())
+typealias BirthdayCallback = ((Result<Birthday, BirthdayError>) -> Void)

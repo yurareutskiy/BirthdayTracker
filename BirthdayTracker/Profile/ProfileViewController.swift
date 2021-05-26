@@ -14,14 +14,15 @@ protocol ProfileViewModelProtocol {
 
 class ProfileViewModel: ProfileViewModelProtocol {
 
-	var addNewDateAction: DateCallback = { _ in }
+//	var addNewDateAction: DateCallback = { _ in }
 
 	var buttonTapped: VoidCallback?
 
 	init() {
 		self.buttonTapped = {
 			let date = Date()
-			self.addNewDateAction(date)
+            print(date)
+//			self.addNewDateAction(date)
 		}
 	}
 }
@@ -52,7 +53,7 @@ class ProfileViewController: UIViewController {
 	init(viewModel: ProfileViewModel) {
 		self.viewModel = viewModel
 		super.init(nibName: nil, bundle: nil)
-		title = "Профиль"
+		title = "Profile"
 		navigationController?.navigationBar.prefersLargeTitles = true
 	}
 

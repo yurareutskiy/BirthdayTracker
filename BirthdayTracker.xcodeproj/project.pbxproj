@@ -13,6 +13,8 @@
 		BF12CD1D24E71AD2002688E6 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF12CD1C24E71AD2002688E6 /* ListViewModel.swift */; };
 		BF12CD1F24E71AE9002688E6 /* ListDisplayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF12CD1E24E71AE9002688E6 /* ListDisplayModel.swift */; };
 		BF3AF02A2628445100519010 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3AF0292628445100519010 /* Typealiases.swift */; };
+		BF655F57264364F500686F9C /* ProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF655F56264364F500686F9C /* ProfileCoordinator.swift */; };
+		BF655F5B2643650D00686F9C /* BirthdayListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF655F5A2643650D00686F9C /* BirthdayListCoordinator.swift */; };
 		BFB71A0B2464E61D00F8A55A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB71A0A2464E61D00F8A55A /* AppDelegate.swift */; };
 		BFB71A0D2464E61D00F8A55A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB71A0C2464E61D00F8A55A /* SceneDelegate.swift */; };
 		BFB71A142464E61E00F8A55A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFB71A132464E61E00F8A55A /* Assets.xcassets */; };
@@ -20,10 +22,14 @@
 		BFDA175E24B4F8A800D6CC32 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDA175D24B4F8A800D6CC32 /* StartViewController.swift */; };
 		BFDA176124B4F8E500D6CC32 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDA176024B4F8E500D6CC32 /* ListViewController.swift */; };
 		BFDA176424B4F90D00D6CC32 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDA176324B4F90D00D6CC32 /* ProfileViewController.swift */; };
+		BFDC7406265EC75800831D41 /* EditFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDC7405265EC75800831D41 /* EditFormViewModel.swift */; };
+		BFDC7409265EC77900831D41 /* EditFormFabric.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDC7408265EC77900831D41 /* EditFormFabric.swift */; };
+		BFDC740C265EC84500831D41 /* EditFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDC740B265EC84500831D41 /* EditFormView.swift */; };
 		BFE3C6692622219F00B124B8 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE3C6682622219F00B124B8 /* Coordinator.swift */; };
 		BFE3C66C2622229200B124B8 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE3C66B2622229200B124B8 /* AppCoordinator.swift */; };
 		BFEE4828262DB901008664A6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEE4827262DB901008664A6 /* DetailViewController.swift */; };
 		BFEE482B262DB924008664A6 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEE482A262DB924008664A6 /* DetailViewModel.swift */; };
+		BFFC0DE02646A6A80088AAB2 /* EditFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFC0DDF2646A6A80088AAB2 /* EditFormViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +39,8 @@
 		BF12CD1C24E71AD2002688E6 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		BF12CD1E24E71AE9002688E6 /* ListDisplayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDisplayModel.swift; sourceTree = "<group>"; };
 		BF3AF0292628445100519010 /* Typealiases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typealiases.swift; sourceTree = "<group>"; };
+		BF655F56264364F500686F9C /* ProfileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCoordinator.swift; sourceTree = "<group>"; };
+		BF655F5A2643650D00686F9C /* BirthdayListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayListCoordinator.swift; sourceTree = "<group>"; };
 		BFB71A072464E61D00F8A55A /* BirthdayTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirthdayTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFB71A0A2464E61D00F8A55A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFB71A0C2464E61D00F8A55A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,10 +50,14 @@
 		BFDA175D24B4F8A800D6CC32 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		BFDA176024B4F8E500D6CC32 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		BFDA176324B4F90D00D6CC32 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		BFDC7405265EC75800831D41 /* EditFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditFormViewModel.swift; sourceTree = "<group>"; };
+		BFDC7408265EC77900831D41 /* EditFormFabric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditFormFabric.swift; sourceTree = "<group>"; };
+		BFDC740B265EC84500831D41 /* EditFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditFormView.swift; sourceTree = "<group>"; };
 		BFE3C6682622219F00B124B8 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		BFE3C66B2622229200B124B8 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		BFEE4827262DB901008664A6 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		BFEE482A262DB924008664A6 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		BFFC0DDF2646A6A80088AAB2 /* EditFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditFormViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +90,7 @@
 		BF3AF0282628444000519010 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				BFE3C6682622219F00B124B8 /* Coordinator.swift */,
 				BF3AF0292628445100519010 /* Typealiases.swift */,
 			);
 			path = Common;
@@ -102,13 +115,12 @@
 		BFB71A092464E61D00F8A55A /* BirthdayTracker */ = {
 			isa = PBXGroup;
 			children = (
+				BFB71A0A2464E61D00F8A55A /* AppDelegate.swift */,
+				BFB71A0C2464E61D00F8A55A /* SceneDelegate.swift */,
+				BFFC0DDE2646A6370088AAB2 /* EditForm */,
 				BF3AF0282628444000519010 /* Common */,
 				BF12CD1924E71079002688E6 /* Managers */,
 				BF12CD1424E6DBBE002688E6 /* Models */,
-				BFB71A0A2464E61D00F8A55A /* AppDelegate.swift */,
-				BFE3C6682622219F00B124B8 /* Coordinator.swift */,
-				BFE3C66B2622229200B124B8 /* AppCoordinator.swift */,
-				BFB71A0C2464E61D00F8A55A /* SceneDelegate.swift */,
 				BFDA175F24B4F8B500D6CC32 /* Start */,
 				BFDA176524B4F92400D6CC32 /* Profile */,
 				BFDA176224B4F8F600D6CC32 /* List */,
@@ -123,6 +135,7 @@
 		BFDA175F24B4F8B500D6CC32 /* Start */ = {
 			isa = PBXGroup;
 			children = (
+				BFE3C66B2622229200B124B8 /* AppCoordinator.swift */,
 				BFDA175D24B4F8A800D6CC32 /* StartViewController.swift */,
 			);
 			path = Start;
@@ -131,6 +144,7 @@
 		BFDA176224B4F8F600D6CC32 /* List */ = {
 			isa = PBXGroup;
 			children = (
+				BF655F5A2643650D00686F9C /* BirthdayListCoordinator.swift */,
 				BFDA176024B4F8E500D6CC32 /* ListViewController.swift */,
 				BF12CD1C24E71AD2002688E6 /* ListViewModel.swift */,
 				BF12CD1E24E71AE9002688E6 /* ListDisplayModel.swift */,
@@ -142,6 +156,7 @@
 		BFDA176524B4F92400D6CC32 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				BF655F56264364F500686F9C /* ProfileCoordinator.swift */,
 				BFDA176324B4F90D00D6CC32 /* ProfileViewController.swift */,
 			);
 			path = Profile;
@@ -154,6 +169,17 @@
 				BFEE482A262DB924008664A6 /* DetailViewModel.swift */,
 			);
 			path = Detail;
+			sourceTree = "<group>";
+		};
+		BFFC0DDE2646A6370088AAB2 /* EditForm */ = {
+			isa = PBXGroup;
+			children = (
+				BFFC0DDF2646A6A80088AAB2 /* EditFormViewController.swift */,
+				BFDC740B265EC84500831D41 /* EditFormView.swift */,
+				BFDC7408265EC77900831D41 /* EditFormFabric.swift */,
+				BFDC7405265EC75800831D41 /* EditFormViewModel.swift */,
+			);
+			path = EditForm;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,13 +254,19 @@
 			files = (
 				BFE3C66C2622229200B124B8 /* AppCoordinator.swift in Sources */,
 				BF12CD1824E70CEF002688E6 /* ListTableViewCell.swift in Sources */,
+				BFFC0DE02646A6A80088AAB2 /* EditFormViewController.swift in Sources */,
 				BFB71A0B2464E61D00F8A55A /* AppDelegate.swift in Sources */,
 				BF12CD1B24E71097002688E6 /* BirthdayManager.swift in Sources */,
 				BFB71A0D2464E61D00F8A55A /* SceneDelegate.swift in Sources */,
 				BFDA176124B4F8E500D6CC32 /* ListViewController.swift in Sources */,
 				BF12CD1D24E71AD2002688E6 /* ListViewModel.swift in Sources */,
 				BFE3C6692622219F00B124B8 /* Coordinator.swift in Sources */,
+				BFDC7406265EC75800831D41 /* EditFormViewModel.swift in Sources */,
+				BF655F57264364F500686F9C /* ProfileCoordinator.swift in Sources */,
 				BF3AF02A2628445100519010 /* Typealiases.swift in Sources */,
+				BFDC7409265EC77900831D41 /* EditFormFabric.swift in Sources */,
+				BFDC740C265EC84500831D41 /* EditFormView.swift in Sources */,
+				BF655F5B2643650D00686F9C /* BirthdayListCoordinator.swift in Sources */,
 				BF12CD1624E6DBD5002688E6 /* Birthday.swift in Sources */,
 				BFDA176424B4F90D00D6CC32 /* ProfileViewController.swift in Sources */,
 				BF12CD1F24E71AE9002688E6 /* ListDisplayModel.swift in Sources */,

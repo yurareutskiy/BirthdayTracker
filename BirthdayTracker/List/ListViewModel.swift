@@ -18,6 +18,8 @@ class ListViewModel {
 	var dates: [Date] = []
 
 	var updateHandler: VoidCallback = {}
+    
+    var addNewBirthdayCallback: ((Birthday) -> Void)?
 
 	var showDetailViewHandler: ((Date) -> Void) = { _ in }
 
@@ -41,5 +43,9 @@ class ListViewModel {
 		let date = DateDisplayModel(date: dates[index])
 		return date
 	}
+    
+    func addNewBirthday(_ birthdayResult: Result<Birthday, BirthdayError>) {
+        print("AddNew")
+    }
 
 }

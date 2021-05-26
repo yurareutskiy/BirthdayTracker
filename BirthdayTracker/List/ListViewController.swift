@@ -39,7 +39,8 @@ class ListViewController: UIViewController {
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		title = "Список"
+		title = "List"
+        setupAddButton()
 		navigationController?.navigationBar.prefersLargeTitles = true
 		setupTableView()
 		viewModel.updateHandler = { [weak self] in
@@ -47,6 +48,20 @@ class ListViewController: UIViewController {
 		}
 	}
 
+    private func setupAddButton() {
+        let addItem = UIBarButtonItem(barButtonSystemItem: .add,
+                                      target: self,
+                                      action: #selector(addItemAction))
+        addItem.tintColor = .darkText
+        navigationItem.rightBarButtonItem = addItem
+    }
+    
+    @objc private func addItemAction() {
+        let addNewItemVC = EditFormFabric.configureAddNewController(completion: viewModel.addNewBirthday)
+        addNewItemVC.modalPresentationStyle = .formSheet
+        present(addNewItemVC, animated: true, completion: nil)
+    }
+    
 	private func setupTableView() {
 		view.addSubview(tableView)
 

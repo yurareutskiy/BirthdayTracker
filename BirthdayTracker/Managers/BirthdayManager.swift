@@ -8,10 +8,6 @@
 
 import Foundation
 
-enum BirthdayError: Error {
-	case noEvents
-}
-
 protocol BirthdayManagerProtocol {
 
 	func fetchAllBirthdays(completion: @escaping (Result<[Birthday], Error>) -> Void)

@@ -15,3 +15,9 @@ struct Birthday {
 	var date: Date
 	var notes: String?
 }
+
+
+enum BirthdayError: Error {
+    case noEvents
+    case common
+}
